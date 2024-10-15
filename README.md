@@ -2,12 +2,6 @@
 
 In this study, we explore gender bias in Bangla pretrained language models across four different classification tasks, including sentiment analysis, toxicity detection, hate speech detection, and sarcasm detection. We first identified bias and then proposed joint loss optimization technique to mitigate gender bias across four task specific pretrained language models. For the experimentation purpose, we developed four manually annotated task specific datasets by altering names and gender-specific terms to their opposites. We evaluate our proposed gender bias mitigation technique by comparing with other existing approaches with respect to the effectiveness in reducing bias within these models. Our findings indicate that the proposed approach not only effectively reduces bias but also maintains competitive accuracy compared to other existing baseline approaches.
 
-# Our Proposed Joint Loss Optimization (JLO) Architecture
-<object data="JLO Approach.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="JLO Approach.pdf">
-        <p><a href="JLO Approach.pdf">Click here to view it.</a></p>
-    </embed>
-</object>
 
 # Repository Structure
 The repository has two folders.
