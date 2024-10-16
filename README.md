@@ -15,14 +15,14 @@ The repository has two folders.
 **Gender Bias Mitigation** contains 
 - The codes of different approaches for mitigating gender bias for different tasks. 
    - GBM_Task_Done.ipynb file contains the implementations of our Finetuning with original data (FOD) approach and Token Masking (TM) approach. <br>
-  - Baseline_Task.ipynb file contains the implementation of our Baseline approach (BA). <br>
+  - Baseline_Task.ipynb file contains the implementation of our Fine-tuning with both original and augmented samples approach (FOA). <br>
   - A2_GBM_Task.ipynb file contains the implementation of our proposed novel joint loss optimization (JLO) approach. 
   - Here, Task could be sentiment, toxicity, hate speech, or sarcasm.<br>
 
 
 - The csv files where the predictions of different approaches are saved for different tasks.
   - Task_reSult.csv contains predictions of TM and FOD approach. **pred** column is the prediction of TM text (Obtained from TM approach). **pred_original** is the prediction of original text and **pred_ner** is the prediction of GN swapped text (Obtained from FOD approach).
-  - baseline_Task_reSult.csv contains predictions obtained from Baseline approach (BA). **pred** column is the prediction of original text and **pred_ner** is the prediction of GN swapped text.
+  - baseline_Task_reSult.csv contains predictions obtained from Fine-tuning with both original and augmented samples approach (FOA). **pred** column is the prediction of original text and **pred_ner** is the prediction of GN swapped text.
   - Task_reSult_a2.csv contains predictions obtained from our novel approach (JLO). **a2_original_pred** column is the prediction of original text and **a2_ner_pred** is the prediction of GN swapped text.
   - Here, Task could be sentiment, toxicity, hate speech, or sarcasm.
 
